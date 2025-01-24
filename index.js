@@ -24,6 +24,6 @@ app.use('/auth', AuthRouter);
 app.use('/products', ProductRouter);
 
 
-app.listen(PORT, () => {
+app.listen('/api', () => {
     console.log(`Server is running on ${PORT}`)
 })
